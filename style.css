@@ -1,4 +1,13 @@
 
+
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +92,7 @@ a {
 .nav-list a:hover {
   background: var(--main-blue);
 }
+
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -99,4 +109,32 @@ a {
   font-style: italic;
   color: var(--main-red);
 }
+
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(216, 17, 17);
+  }
+  
+  
+
 
